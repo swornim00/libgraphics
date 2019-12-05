@@ -1,6 +1,5 @@
 #include"graphics.h"
 
-
 void initgraph(int *gdriver, int *gmode, char *pathtodriver){
     window_h =500;
     window_w =500;
