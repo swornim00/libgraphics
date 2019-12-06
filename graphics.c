@@ -3,9 +3,6 @@
 void initgraph(int *gdriver, int *gmode, char *pathtodriver){
     window_h =500;
     window_w =500;
-    if(gdriver != DETECT){
-        printf("Graphics Driver not found\n");
-    }
     if(SDL_Init(SDL_INIT_EVERYTHING)<0){
         printf("Failed to Initialize Video\n");
     }
