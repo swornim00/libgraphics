@@ -1,3 +1,7 @@
+#ifndef GRAPHICS_H
+
+#define GRAPHICS_H
+
 #include<SDL2/SDL.h>
 
 /* graphic drivers */
@@ -16,8 +20,8 @@ void delay(int _mseconds);
 void checkq();
 void putpixel(int x, int y, int color);
 void line(int x1,int y1,int x2,int y2);
-
-int getmaxx();
-int getmaxy();
+int getmaxx(void);
+int getmaxy(void);
 int kbhit();
 
+#endif
